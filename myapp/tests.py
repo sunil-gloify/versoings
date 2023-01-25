@@ -7,8 +7,6 @@ from rest_framework.test import APIRequestFactory
 
 
 
-
-
 class UserModelViewsTestCase(APITestCase):
     def setUp(self):
         self.factory = APIRequestFactory()
